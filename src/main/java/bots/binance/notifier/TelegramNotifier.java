@@ -6,8 +6,8 @@ import org.slf4j.LoggerFactory;
 import okhttp3.*;
 
 public final class TelegramNotifier {
-    private static final String TELEGRAM_BOT_TOKEN = "7517992059:AAExL8K18voEEj-PhICO1mSht5HRFjdkXeg";
-    private static final String CHAT_ID = "-1002649780018";
+    private static final String TELEGRAM_BOT_TOKEN = "XXX";
+    private static final String CHAT_ID = "XXX";
     private static final OkHttpClient client = new OkHttpClient();
     private static Logger logger = LoggerFactory.getLogger(TelegramNotifier.class);
 
