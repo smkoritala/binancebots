@@ -22,9 +22,9 @@ public class BinanceCertificateFetcher {
             SSLSession session = socket.getSession();
             Certificate[] certs = session.getPeerCertificates();
             Set<String> fingerprints = new HashSet<>(Arrays.asList(
-                    "sha256/7yd3jTwfNUbXxJ/hiqfCVZoRFx33ILm0Iw3CdYuyYD4=", // Example hardcoded cert
-                    "sha256/Wec45nQiFwKvHtuHxSAMGkt19k+uPSw9JlEkxhvYPHk=", // Additional hardcoded cert
-                    "sha256/i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY="
+                    "sha256/XXX", // Example hardcoded cert
+                    "sha256/XXX", // Additional hardcoded cert
+                    "sha256/XXX"
                 ));
             for (Certificate cert : certs) {
                 X509Certificate x509Cert = (X509Certificate) cert;
